@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+#board {
+  width:800px;
+  background-color:pink;
+  height:600px;
+  margin: 20px auto 100px ;
+  position:relative;
+}
+
+.paddle {
+  height:80px;
+  width:10px;
+  background-color:black;
+  position:absolute;
+  top:50px;
+}
+
+#left-paddle {
+  left:5px;
+  background-color:green;
+}
+
+#right-paddle {
+  right:5px;
+}
+
+.ball {
+  height:20px;
+  width:20px;
+  background-color:blue;
+  position:absolute;
+  border-radius:10px;
+  top: 50%;
+  left:50%;
+}
